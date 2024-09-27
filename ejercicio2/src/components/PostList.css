@@ -1,0 +1,33 @@
+.post-list {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.post-item {
+    border: 1px solid #160c0c;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 16px;    
+    background-color: rgb(224, 229, 202);
+}
+
+.post-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.post-author {
+    font-weight: bold;
+}
+
+.post-meta {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    margin-top: 8px; /* Espacio superior */
+}
+
+.meta-item {
+    display: flex; /* Para alinear emoji y texto */
+    align-items:initial  /* Centrar verticalmente */
+}
